@@ -4,6 +4,11 @@ set -e
 
 terraform import databricks_group_member.admins_948737816221583_518c62e4_c733_4fd3_8030_5b57950ed4b2 "948737816221583|1500546977265991"
 terraform import databricks_group_member.admins_948737816221583_tony_bo "948737816221583|843719678597322"
+terraform import databricks_permissions.directory_shared_1139067199598197 "/directories/1139067199598197"
+terraform import databricks_permissions.directory_users_1032116972995739 "/directories/1032116972995739"
 terraform import databricks_service_principal.rf92099f421d "1500546977265991"
 terraform import databricks_user.tony_bo "843719678597322"
+terraform import databricks_directory.tony_bo_databricks_com_1032116972995741 "/tony.bo@databricks.com"
+terraform import databricks_notebook.tony_bo_databricks_com_test_1032116972995742 "/tony.bo@databricks.com/test"
 terraform import databricks_cluster.tony_bos_cluster_0419_175553_p0tvaicz "0419-175553-p0tvaicz"
+terraform import databricks_notebook.users_tony_bo_databricks_com_nfs_test_1139067199598208 "/Users/tony.bo@databricks.com/nfs-test"
