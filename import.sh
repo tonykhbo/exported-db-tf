@@ -4,6 +4,10 @@ set -e
 
 terraform import databricks_job.backup_job_650159901727169 "650159901727169"
 terraform import databricks_job.dr_etl_pipeline_primary_52995875869398 "52995875869398"
+terraform import databricks_sql_dashboard.nyc_trips_dashboard_8a395628_d76a_48da_ae68_b338ca03b857 "8a395628-d76a-48da-ae68-b338ca03b857"
+terraform import databricks_sql_query.nyctrips_sqlquery_3d1b425c_709d_49fb_8b2b_a9081bd873c1 "3d1b425c-709d-49fb-8b2b-a9081bd873c1"
+terraform import databricks_sql_widget.ra7b32891bb5 "8a395628-d76a-48da-ae68-b338ca03b857/5560570e-0b20-4e9d-b0cb-bceeb6ed800e"
+terraform import databricks_sql_visualization.results_3d1b425c_709d_49fb_8b2b_a9081bd873c1_da49e53d_6373_4198_a1f4_e309f73531f3 "3d1b425c-709d-49fb-8b2b-a9081bd873c1/da49e53d-6373-4198-a1f4-e309f73531f3"
 terraform import databricks_cluster.shasidhar_dev_cluster_0810_094321_3j8qu522 "0810-094321-3j8qu522"
-terraform import databricks_cluster.shasidhar_erantis_cluster_0810_115652_38i8xxjb "0810-115652-38i8xxjb"
-terraform import databricks_cluster.tony_bos_cluster_0725_192405_4t5nwqc "0725-192405-4t5nwqc"
+terraform import databricks_cluster.shasidhar_eranti_s_cluster_0810_115652_38i8xxjb "0810-115652-38i8xxjb"
+terraform import databricks_cluster.tony_bo_s_cluster_0725_192405_4t5nwqc "0725-192405-4t5nwqc"

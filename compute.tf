@@ -23,7 +23,7 @@ resource "databricks_cluster" "shasidhar_dev_cluster_0810_094321_3j8qu522" {
     availability       = "ON_DEMAND_AZURE"
   }
 }
-resource "databricks_cluster" "shasidhar_erantis_cluster_0810_115652_38i8xxjb" {
+resource "databricks_cluster" "shasidhar_eranti_s_cluster_0810_115652_38i8xxjb" {
   spark_version = "12.2.x-scala2.12"
   spark_env_vars = {
     PYSPARK_PYTHON = "/databricks/python3/bin/python3"
@@ -48,7 +48,7 @@ resource "databricks_cluster" "shasidhar_erantis_cluster_0810_115652_38i8xxjb" {
     max_workers = 8
   }
 }
-resource "databricks_cluster" "tony_bos_cluster_0725_192405_4t5nwqc" {
+resource "databricks_cluster" "tony_bo_s_cluster_0725_192405_4t5nwqc" {
   spark_version = "12.2.x-scala2.12"
   spark_env_vars = {
     PYSPARK_PYTHON = "/databricks/python3/bin/python3"
